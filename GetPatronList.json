@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "GetPatronList",
+            "script": "bun",
+            "args" : "run index.ts"
+        }
+    ]
+}
