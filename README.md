@@ -3,7 +3,7 @@ Couldn't find a simple way to get my patrons, here it is
 
 **Notes :**
 1. The Patreon Dependency is Broken, you can still get them by running `bun install` and do the fix manually. You just have to replace the line 61 from `/GetPatronsList/node_modules/@anitrack/patreon-wrapper/lib/index.js` by this : `title: tierInfo ? "" : "",`
-2. If you wan't to run it on your side, I suggest to just run the `bundle.js` with [bun](https://bun.sh/) (`bun bundle.js`)
+2. If you wan't to run it on your side, I suggest to just run the `index.ts` with [bun](https://bun.sh/) (`bun index.ts`)
 3. I made it real fast, it's not perfect but it works
 
 **To run it :**
